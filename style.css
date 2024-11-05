@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  background: white;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.analyze-btn, .retry-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #ccc;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.loading, .result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#retry {
+  display: none;
+}
